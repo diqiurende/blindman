@@ -70,11 +70,12 @@ function  toInquiry(){
 
           <el-col :span="6">
             <p class="aliTitle" style="background: transparent">
-              中共中央办公厅、国务院办公厅印发《关于加强社会治安防控体系建设的意见》
+              测距技术：激光雷达测距
+
             </p>
             <p class="aliDescription" >
               本产品还搭载了激光测距雷达,能结合目标检测进行更精准的提示。同时，对于潜在的可能无法检测到的目标，拥有无震动反馈。
-              <br /><br /><br /><br />
+              <br /><br /><br /><br /><br />
 
             </p>
             <!--            <el-image src="src/assets/camera.png" style="border-radius: 15px;margin-top: 12vh"></el-image>-->
