@@ -98,7 +98,7 @@ const handleChange = (file, fileList) => {
                       观察上传的两个视频
                     </el-row>
                     <el-row style="font-weight: lighter;font-size: 1.0vw;margin-top: 1vh">
-                      找到被重识别的行人
+                      可以看到辅助盲人的效果
                     </el-row>
                   </el-container>
                 </el-col>
@@ -108,7 +108,7 @@ const handleChange = (file, fileList) => {
           </el-col>
         </el-row>
         <el-row>
-          <el-col :span="12">
+          <el-col :span="18" :offset="3">
             <el-upload
                 :before-upload="beforeUpload"
                 :on-change="handleChange"
@@ -118,7 +118,7 @@ const handleChange = (file, fileList) => {
                 name="video"
                 style="margin: 20px; border: 1px dashed #ccc;"
             >
-              <div style="width: 100%;height: 40vh;
+              <div style="width: 100%;height: 49vh;
               display: flex;align-items: center;justify-content: center;
               flex-direction: column;">
                 <el-icon class="el-icon--upload">
@@ -134,55 +134,12 @@ const handleChange = (file, fileList) => {
               <img :src="uploadedImageUrl" alt="Uploaded Image" style="=width: 10vw;height: 10vh">
             </div>
           </el-col>
-          <el-col :span="12">
-            <el-upload
-                :before-upload="beforeUpload"
-                :on-change="handleChange"
-                :limit="1"
-                :auto-upload="false"
-                drag
-                name="video"
-                style="margin: 20px; border: 1px dashed #ccc;"
-            >
-              <div style="width: 100%;height: 40vh;
-              display: flex;align-items: center;justify-content: center;
-              flex-direction: column;">
-                <el-icon class="el-icon--upload">
-                  <PictureRounded />
-                </el-icon>
-                <div>
-                  把文件拖拽至此
-                </div>
-              </div>
 
-            </el-upload>
-            <div v-if="uploadedImageUrl">
-              <img :src="uploadedImageUrl" alt="Uploaded Image" style="=width: 10vw;height: 10vh">
-            </div>
-          </el-col>
 
 
 
         </el-row>
         <el-divider></el-divider>
-        <el-row>
-          <el-col :span="11">
-            <el-card >
-
-            </el-card>
-          </el-col>
-          <el-col :span="2">
-
-          </el-col>
-          <el-col :span=11>
-            <el-card >
-
-            </el-card>
-          </el-col>
-
-
-
-        </el-row>
 
       </el-main>
     </el-container>

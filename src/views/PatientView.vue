@@ -20,7 +20,7 @@ function  toInquiry(){
               <el-icon :size="size" style="color:#eac922;">
                 <Help/>
               </el-icon>
-              行人重识别
+              慧眼说途
             </p>
           </el-col>
           <el-col :span="5">&nbsp;
@@ -49,15 +49,16 @@ function  toInquiry(){
           <el-col :span="10" >
             <el-carousel  arrow="never" height="60vh">
               <el-carousel-item  style="background: whitesmoke;border-radius: 15px" >
-                <el-image src="src/assets/walkerjpg.jpg" style="border-radius: 15px"></el-image>
+                <el-image src="src/assets/盲道.jpg" style="border-radius: 15px;width: 40vw"></el-image>
                 <div
                     style="background: whitesmoke;
                     width: 100%;
                     height: 30vh;
 "
                 >
-                  <p class="aliTitle1">智能安防已进入行业大发展时期&nbsp;</p>
-                  <p class="aliDescription" style="height: 10vh">近年来，中国智能安防行业相关国家政策频出，主要政策内容围绕鼓励安防行业与互联网、5G领域技术结合，推广智能安防应用等。</p>
+                  <p class="aliTitle1">AI助力盲人出行，提供新保障，展现社会新风貌&nbsp;</p>
+                  <p class="aliDescription" style="height: 10vh">据统计，全球失明人数约有4330万。中国2024年视障者数量超过567万人，占全球失明人口的13%左右，且每年新增盲人数量已经达到45万以上。
+                  </p>
                 </div>
               </el-carousel-item>
             </el-carousel>
@@ -72,8 +73,8 @@ function  toInquiry(){
               中共中央办公厅、国务院办公厅印发《关于加强社会治安防控体系建设的意见》
             </p>
             <p class="aliDescription" >
-              加强信息资源共享和深度应用，构建纵向贯通、横向集成的平安建设信息化综合平台。提高系统互联、信息互通和资源共享程度，强化信息资源整合，增强预防和打击犯罪的能力。将社会治安防控信息化纳入智慧城市建设，运用新一代技术提升公共安全管理水平，建立健全信息安全保障体系。
-              <br />
+              本产品还搭载了激光测距雷达,能结合目标检测进行更精准的提示。同时，对于潜在的可能无法检测到的目标，拥有无震动反馈。
+              <br /><br /><br /><br />
 
             </p>
             <!--            <el-image src="src/assets/camera.png" style="border-radius: 15px;margin-top: 12vh"></el-image>-->
@@ -85,10 +86,10 @@ function  toInquiry(){
 
           <el-col :span="6">
             <p class="aliTitle" style="background: transparent">
-              YOLOv8：行人重识别的技术突破
+              YOLOv8：盲人辅助的技术突破
             </p>
             <p class="aliDescription" >
-              YOLOv8作为YOLO系列的最新版本，对于行人重识别具有重要意义。其高效的实时检测能力使其在监控视频和智能安防系统等场景中表现出色，能够快速准确地识别行人并进行跟踪。同时，YOLOv8具有精确的目标定位能力，可以提供更高的检测精度和更精确的目标定位，为身份重识别提供了可靠基础。
+              YOLOv8作为YOLO系列的最新版本，对于盲人辅助具有重要意义。其高效的实时检测能力使其在监控视频和智能安防系统等场景中表现出色，能够快速准确地识别行人并进行跟踪。同时，YOLOv8具有精确的目标定位能力，可以提供更高的检测精度和更精确的目标定位，为身份重识别提供了可靠基础。
               <br />
 
             </p>
@@ -110,7 +111,7 @@ function  toInquiry(){
                 <el-icon size="130" style="color:#eac922;">
                   <Help/>
                 </el-icon>
-                行人重识别
+                盲人辅助
               </p>
 
             </div>

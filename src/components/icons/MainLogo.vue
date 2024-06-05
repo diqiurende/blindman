@@ -21,7 +21,8 @@ defineProps({
     <el-icon :size="size" style="color:#eac922;">
       <Help/>
     </el-icon>
-    行人重识别
+    慧眼说途
+
   </p>
 </template>
 
